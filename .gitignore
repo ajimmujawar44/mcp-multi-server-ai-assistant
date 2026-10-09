@@ -1,0 +1,49 @@
+# --- Secrets & authentication data (NEVER commit) ---
+.env
+.env.*
+*.pem
+*.key
+cookies*
+cookie*.json
+accounts.json
+auth.json
+credentials.json
+library.json
+*.pickle
+
+# Personal client settings (contain local absolute paths)
+cline_mcp_settings.json
+cline_secrets.txt
+mcp_settings.json
+.cline/
+.kilo/
+
+# Browser profiles / session state (created by browser-based MCP auth)
+chrome_profile/
+chrome_profile_instances/
+browser_state/
+**/chrome_profile/
+**/browser_state/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python (not used in this project, but just in case)
+__pycache__/
+*.pyc
+.venv/
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/mcp.json

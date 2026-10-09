@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\YourName\\Documents\\mcp-outputs"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "list_directory",
+        "read_text_file",
+        "write_file"
+      ]
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-airbnb"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "airbnb_search"
+      ]
+    },
+    "notebooklm": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "notebooklm-mcp"
+      ],
+      "disabled": true,
+      "timeout": 900,
+      "autoApprove": [
+        "get_health"
+      ]
+    }
+  }
+}

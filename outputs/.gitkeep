@@ -1,0 +1,2 @@
+# Keeps the outputs/ directory tracked by git even when empty.
+# Generated workflow outputs are saved here.
